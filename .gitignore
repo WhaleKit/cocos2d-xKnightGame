@@ -1,0 +1,13 @@
+cocos2d/*
+proj.android/*
+proj.android-studio/*
+proj.ios_mac/*
+proj.linux/*
+proj.tizen/*
+proj.win8.1-universal/*
+proj.win10/*
+proj.win32/*
+.cocos-project.json
+
+!cocos2d/cocos/base/CCDirector.cpp
+#a little bugfix in CCDirector.cpp

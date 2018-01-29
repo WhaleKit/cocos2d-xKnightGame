@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2018.01.01" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="10">
+ <tileset firstgid="1" source="tilest.tsx"/>
+ <layer name="map" width="10" height="10">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,1,2,2,2,
+2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,1,1,1,1,1,
+1,1,1,1,1,1,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,
+2,2,2,1,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup name="things">
+  <object id="2" name="goal" x="110" y="79">
+   <point/>
+  </object>
+  <object id="7" name="start" x="136" y="303.5">
+   <point/>
+  </object>
+  <object id="8" name="narration0" x="85.9911" y="130.535" width="205" height="69">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="24" wrap="1" color="#ffffff">          Walls can't stop you</text>
+  </object>
+ </objectgroup>
+</map>
